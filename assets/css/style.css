@@ -81,6 +81,7 @@ header .button a{
     align-items: center;
     padding: 80px 60px;
     font-family: var(--open-sans);
+  
 }
 
 .banner-text{
@@ -126,6 +127,9 @@ header .button a{
 
 .grow-together-container{
     padding: 10px 60px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 .col{
     display: grid;
@@ -138,6 +142,7 @@ header .button a{
     padding: 50px 60px;
     border-radius: 10px;
     margin-bottom: 20px;
+ 
 }
 
 /*text*/
@@ -172,12 +177,12 @@ header .button a{
     right: 0; 
     margin-left: auto; 
     margin-right: auto; 
-    margin-top: -150px;
-    width: 50%;
+    margin-top: -60px;
+    width: 60%;
     text-align: center;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 60px 20px;
+    padding: 80px 20px;
     font-family: var(--open-sans);
     border-radius: 10px;
 
@@ -195,7 +200,7 @@ header .button a{
 .footer-container{
     background-color: var(--Very-Dark-Cyan);
     color: #fff;
-
+    min-height: 70vh;
 }
 
 
@@ -205,6 +210,7 @@ header .button a{
     padding: 80px 80px;
     font-family: var(--open-sans);
     color: var(--Very-Pale-Cyan);
+    margin-top: 150px;
 }
 
 .content li{
@@ -217,6 +223,7 @@ header .button a{
 
 .content .about-content li, .career-content li{
     margin-bottom: 20px;
+    width: 150px;
 
 }
 
@@ -226,7 +233,6 @@ header .button a{
 .content .location-content li{
     margin-bottom: 20px;
     position: relative;
-    top: 25px;
     width: 400px;
 }
 
@@ -268,7 +274,7 @@ header .button a{
 .footer-logo{
     position: relative;
     width: 50%;
-    top: 80px;
+    top: 150px;
     left: 80px;
     filter: invert(0) sepia(0) saturate(0) hue-rotate(0) brightness(0) contrast(0);
 }
@@ -348,7 +354,7 @@ header .button a{
     }
 
     .content .location-content{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .col-community{
@@ -389,7 +395,7 @@ header .button a{
     }
 
     .header .button a{
-        padding: 10px 20px;
+        padding: 10px 10px;
 
     }
     /* Banner */
@@ -426,7 +432,7 @@ header .button a{
 
     /* Commnunity */
     .col-community {
-        margin-top: -100px;
+        margin-top: -50px;
     }
     
     .col-community h1{
