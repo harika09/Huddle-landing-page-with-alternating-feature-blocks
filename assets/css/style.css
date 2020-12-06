@@ -42,6 +42,12 @@ header .button a{
 } */
 /* ========== Header END ==========*/
 
+/* ========== Layout ========== */
+.bd-container{
+    max-width: 1430px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 
 /* ========== Banner ==========*/
 
@@ -79,14 +85,13 @@ header .button a{
     grid-gap: 20px;
     justify-content: space-between;
     align-items: center;
-    padding: 80px 60px;
     font-family: var(--open-sans);
-  
+    margin-top: 80px;
 }
 
 .banner-text{
     margin-bottom: 20px;
-    width: 70%;
+    width: 550px;
 }
 
 .banner-text h3{
@@ -116,10 +121,10 @@ header .button a{
     background-color: #fd97dd;
 }
 
-.mockup{
-    width: 1250px;
+.banner-img .mockup{
+    width: 640px;
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /* ========== Banner END ==========*/
@@ -135,7 +140,7 @@ header .button a{
     display: grid;
     grid-gap: 100px;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -200,7 +205,6 @@ header .button a{
 .footer-container{
     background-color: var(--Very-Dark-Cyan);
     color: #fff;
-    min-height: 70vh;
 }
 
 
@@ -272,10 +276,10 @@ header .button a{
 
 
 .footer-logo{
-    position: relative;
+    position: absolute;
     width: 50%;
     top: 150px;
-    left: 80px;
+    right: 180px;
     filter: invert(0) sepia(0) saturate(0) hue-rotate(0) brightness(0) contrast(0);
 }
 
@@ -458,8 +462,11 @@ header .button a{
         padding-left: 20px;
         font-size: .8rem;
     }
+}
 
- 
-
-    
+@media screen and (min-width: 1430px){
+    .bd-container{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
