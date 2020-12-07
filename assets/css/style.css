@@ -278,10 +278,9 @@ header .button a{
 
 
 .footer-logo{
-    position: absolute;
+    position: relative;
     width: 50%;
     top: 150px;
-    right: 180px;
     filter: invert(0) sepia(0) saturate(0) hue-rotate(0) brightness(0) contrast(0);
 }
 
